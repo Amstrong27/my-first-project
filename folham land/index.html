@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="tailwind.js"></script>
+     <script
+      src="https://kit.fontawesome.com/5c092a2f6c.js"
+      crossorigin="anonymous" ></script>
+    <style>
+        @font-face {
+            font-family: Lato;
+            src: url(font/Lato-Black.ttf);
+        }
+        .text-stroke{
+            -webkit-text-stroke: 5px white;
+            color: transparent;
+        }
+        .text-stroke2{
+            -webkit-text-stroke: 2px white;
+            color: transparent;
+        }
+        .text-stroke3{
+            -webkit-text-stroke: 5px black;
+            color: black;
+        }
+        .text-stroke4{
+             -webkit-text-stroke: 3px black;
+            color: black;
+        }
+        .gradient{
+            background: url(images/Gradients.png);
+            background-repeat: no-repeat;
+            background-position: right calc(100% + 150px);
+            background-size: contain;
+        }
+        .location{
+            background: url(images/Image.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <section class="">
+            <nav class="bg-white max-w-[1300px] mx-auto flex md:justify-between items-center px-8 py-2 md:px-[40px] md:gap-12 lg:gap-[72px] my-4 md:h-[100px] rounded-[50px] font-medium">
+                <div class="flex items-center justify-between w-full">
+                    <img src="images/logo.png">
+                    <img src="images/menu.png" class="block md:hidden">
+                </div>
+                <ul class="hidden md:flex md:gap-8 text-nowrap">
+                    <li><a href="index.html" class="text-[#0551EC] md:text-sm lg:text-lg">Home</a></li>
+                    <li><a href="about.html" class="text-[#0551EC] md:text-sm lg:text-lg">About Us</a></li>
+                    <li><a href="services.html" class="text-[#0551EC] md:text-sm lg:text-lg">Services</a></li>
+                    <li><a href="" class="text-[#0551EC] md:text-sm lg:text-lg md:flex md:gap-2 md:items-center md:justify-center">Our Sites
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a></li>
+                    <li><a href="contact.html" class="text-[#0551EC] text-lg">Contact Us</a></li>
+                </ul>
+                <button class="hidden md:block px-6 py-3 bg-[#0551EC] rounded-3xl text-lg text-white font-semibold text-nowrap cursor-pointer">CJTronics by Folham</button>
+            </nav>
+
+            <div class="max-w-[1300px] mx-auto p-12 flex flex-col items-center justify-center gap-[150px]">
+                <div class="flex flex-col gap-6 justify-center items-center text-center">
+                    <div>
+                        <p class="text-stroke2 md:text-stroke text-[45px] md:text-[104px] font-[Lato] font-black text-nowrap">Digital <span class="text-[#0551EC]">Advertising</span></p>
+                        <p class="text-[60px] md:text-[104px] font-[Lato] font-black -mt-4 md:-mt-8">Solution.</p>
+                    </div>
+                    <p class="text-[16px] md:text-xl text-nowrap ">We are a digital-led agency with a motive to helping <br> businesses showcase their presence.</p>
+                </div>
+                
+                <a href="#stats" class="rounded-full w-[70px] h-[70px] bg-[#0551EC] flex items-center justify-center scroll-smooth">
+                        <i class="fa-solid fa-arrow-down"></i>
+                </a>
+        
+            </div>
+    </section>
+
+    <div class="bg-white" id="stats">
+        <div class="max-w-[1300px] mx-auto p-12 flex flex-col gap-8 justify-evenly items-center md:flex-row">
+            <div class="grid grid-cols-2 justify-between gap-y-4 gap-x-3 md:w-1/2">
+                <div class="flex gap-3">
+                    <div>
+                        <img src="images/Icon.png">
+                    </div>
+                    <div>
+                        <p class="text-black font-bold text-[20px]">114,316,313</p>
+                        <p class="text-[#000000]/60 text-[13px]">Average view</p>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <div>
+                        <img src="images/nimbus_marketing.png">
+                    </div>
+                    <div>
+                        <p class="text-black font-bold text-[20px]">5,847,261</p>
+                        <p class="text-[#000000]/60 text-[13px]">Unique Reach</p>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <div>
+                        <img src="images/lsicon_marketing-filled.png">
+                    </div>
+                    <div>
+                        <p class="text-black font-bold text-[20px]">90</p>
+                        <p class="text-[#000000]/60 text-[13px]">Years of Experience</p>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <div>
+                        <img src="images/Icon (1).png">
+                    </div>
+                    <div>
+                        <p class="text-black font-bold text-[20px]">454</p>
+                        <p class="text-[#000000]/60 text-[13px]">Completed rojects</p>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <div>
+                        <img src="images/Vector.png">
+                    </div>
+                    <div>
+                        <p class="text-black font-bold text-[20px]">187</p>
+                        <p class="text-[#000000]/60 text-[13px]">Happy Clients</p>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <div>
+                        <img src="images/mdi_location.png">
+                    </div>
+                    <div>
+                        <p class="text-black font-bold text-[20px]">40</p>
+                        <p class="text-[#000000]/60 text-[13px]">Location</p>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <p class="font-semibold text-black md:line-clamp-5">Folham Nig Limited provides our clients a guaranteed service delivery across various locations network in Nigeria.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--PURPLE SECTION-->
+    <section class="bg-[#BFC6FF] px-4">
+        <div class="max-w-[1300px] mx-auto text-center flex flex-col gap-10 justify-center items-center py-[100px] px-5">
+            <p class="text-[Lato] font-black text-stroke4 md:text-stroke3 text-[40px] md:text-[50px]">WHO WE ARE</p>
+            <p class="text-[20px] md:text-[30px] font-normal text-black">Since 1984, Folham has used its outdoor advertising expertise to help companies of every size reach out to their current and potential customers. To compete in the fast growing industry, we keep modernizing our operations by introducing new products offerings in the OOH space, these products range from Digital LED Billboards, to "Human Walking" billboards which are popular for creating awareness for brands during activations and other formal /informal events.</p>
+            <img src="images/wallpaper.png">
+            <p class="text-[20px] md:text-[30px] font-normal text-black">We also actively participate in providing publicly owned OOH assets like; Public Buses (BRT), Bus Shelters and Street Lamppost to our existing clients in various parts of the country.</p>
+            <div class="border border-black text-black text-lg rounded-[100px] w-[335px] px-8 py-6 flex gap-4 justify-center items-center">
+                <a href="">Learn More</a>
+                <i class="fa-solid fa-arrow-right"></i> </div>
+        </div>
+    </section>
+
+    <!--BANNER-->
+    <div>
+        <img src="images/Frame 1618868207.png" class="w-full">
+    </div>
+
+    <!--OUR PRODUCTS-->
+   <section class="gradient">
+        <div class="max-w-[1300px] mx-auto py-[100px] flex flex-col gap-12 items-center justify-center">
+            <div class="flex flex-col items-center justify-center">
+                <p class="text-[Lato] text-[55px] md:text-[104px] font-black text-center">Our Products</p>
+                <p class="text-stroke2 text-[40px] md:text-[80px] font-black -mt-5 md:-mt-10 text-center">and Services.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-5 justify-center items-center w-full mx-auto p-5">
+                <div class="flex flex-col gap-4 items-center justify-center text-wrap">
+                    <img src="images/people.png" class="w-[65px] h-[58px]">
+                    <h4 class="font-bold text-[20px] md:text-[28px]">BillBoards</h4>
+                    <p>Stand out with our range of strategically placed billboards across major cities in Nigeria. From static to digital LED billboards, we have the perfect solution to amplify your brand.</p>
+                </div>
+                <div class="flex flex-col gap-4 items-center justify-center">
+                    <img src="images/Icon (3).png" class="w-[65px] h-[58px]">
+                    <h4 class="font-bold text-[20px] md:text-[28px]">Media Buying</h4>
+                    <p>Maximize your media investments with our expert media buying services. We ensure that your message reaches the right audience at the right time.</p>
+                </div>
+                <div class="flex flex-col gap-4 items-center justify-center">
+                    <img src="images/Icon (2).png" class="w-[65px] h-[58px]">
+                    <h4 class="font-bold text-[20px] md:text-[28px]">Branding & Activation</h4>
+                    <p>Create memorable brand experiences through our dynamic branding and activation services. We help you engage with your audience through creative, on-the-ground solutions.</p>
+                </div>
+                <div class="flex flex-col gap-4 items-center justify-center">
+                    <img src="images/people.png" class="w-[65px] h-[58px]">
+                    <h4 class="font-bold text-[20px] md:text-[28px]">Lamppost Advert</h4>
+                    <p>Our lamppost advertisements are ideal for capturing attention in high-traffic areas, ensuring your brand stays top-of-mind.</p>
+                </div>
+                <div class="flex flex-col gap-4 items-center justify-center">
+                    <img src="images/Icon (3).png" class="w-[65px] h-[58px]">
+                    <h4 class="font-bold text-[20px] md:text-[28px]">Transit Advert</h4>
+                    <p>Maximize your media investments with our expert media buying services. We ensure that your message reaches the right audience at the right time.</p>
+                </div>
+            </div>
+        </div>
+   </section>
+    <!--SPONSORS-->
+    <div class="max-w-[1300px] mx-auto py-[50px] flex flex-row gap-8 flex-wrap items-center justify-center">
+        <img src="images/Frame 456.png" class="w-[100px] h-[100px] md:w-[230px] md:h-[150px]">
+        <img src="images/Frame 457.png" class="w-[100px] h-[100px] md:w-[230px] md:h-[150px]">
+        <img src="images/Frame 458.png" class="w-[100px] h-[100px] md:w-[230px] md:h-[150px]">
+        <img src="images/Frame 459.png" class="w-[100px] h-[100px] md:w-[230px] md:h-[150px]">
+        <img src="images/Frame 460.png" class="w-[100px] h-[100px] md:w-[230px] md:h-[150px]">
+        <img src="images/Frame 462 (1).png" class="w-[100px] h-[100px] md:w-[230px] md:h-[150px]">
+        <img src="images/Frame 463.png" class="w-[100px] h-[100px] md:w-[230px] md:h-[150px]">
+        <img src="images/Frame 464.png" class="w-[100px] h-[100px] md:w-[230px] md:h-[150px]">
+        <img src="images/Frame 465.png" class="w-[100px] h-[100px] md:w-[230px] md:h-[150px]">
+        <img src="images/Frame 466.png" class="w-[100px] h-[100px] md:w-[230px] md:h-[150px]">
+    </div>
+
+    <!--SLIDESHOW-->
+    <div>
+        <div class="location w-[90%] h-[500px] md:h-[900px] p-12 flex flex-col justify-end">
+            <p class="text-[30px] md:text-[55px]">Lagos State, Nigeria</p>
+            <p class="text-lg md:text-2xl w-[90%] md:w-[590px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+
+    <!--LOCATION/FOOTER-->
+    <section class="relative gradient">
+        <div class="flex flex-col gap-8 max-w-[1300px] mx-auto items-center justify-center py-[100px] px-8">
+            <div class="relative inline-block">
+                <img src="images/Ellipse 51.png" class="absolute -bottom-2 left-0 w-full">
+                <p class="text-[Lato] text-[50px] md:text-[80px] text-center font-extrabold relative">Our Location</p>
+            </div>
+            <img src="images/image 3.png">
+        </div>
+        <div class="bg-[#BFC6FF] w-full">
+            <div class="flex flex-col items-center justify-center gap-4 py-[50px]">
+                <div class="flex gap-8 items-center justify-center">
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"><img src="images/Linkedin icon.png"></div>
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"> <img src="images/Shape (1).png"></div>
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"><img src="images/16px-logo-instagram.png"></div>
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"><img src="images/Shape.png"></div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-4 items-center justify-center">
+                    <div class="flex gap-2">
+                        <img src="images/iconoir_instagram.png">
+                        <p class="text-black">folham_ltd</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="images/phone.png">
+                        <p class="text-black">+234 804 814 3519, +234 802 345 2832</p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-4 items-center justify-center">
+                    <div class="flex gap-2">
+                        <img src="images/marker-pin-01.png">
+                        <p class="text-black">32 Alhaji Asiri-Abo Str, Isolo, Lagos, Nigeria.</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="images/mail-01.png">
+                        <p class="text-black">info@folham.com</p>
+                    </div>
+                </div>
+                <p class="text-center text-black">© Folham 2025 | All Rights Reserved</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

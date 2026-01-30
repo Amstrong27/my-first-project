@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <script src="tailwind.js"></script>
+    <script src="https://kit.fontawesome.com/5c092a2f6c.js" crossorigin="anonymous" ></script>
+    <style>
+        @font-face {
+            font-family: Lato;
+            src: url(font/Lato-Black.ttf);
+        }
+        .text-stroke{
+            -webkit-text-stroke: 4px white;
+            color: transparent;
+        }
+        .text-stroke2{
+            -webkit-text-stroke: 2px white;
+            color: transparent;
+        }
+        .text-stroke3{
+            -webkit-text-stroke: 4px black;
+            color: black;
+        }
+        .text-stroke4{
+            -webkit-text-stroke: 2px white;
+            color: transparent;
+        }
+        .gradient{
+            background: url(images/Gradients.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <section>
+            <nav class="bg-white max-w-[1300px] mx-auto flex md:justify-between items-center px-8 py-2 md:px-[40px] md:gap-12 lg:gap-[72px] my-4 md:h-[100px] rounded-[50px] font-medium">
+                <div class="flex items-center justify-between w-full">
+                    <img src="images/logo.png">
+                    <img src="images/menu.png" class="block md:hidden">
+                </div>
+                <ul class="hidden md:flex md:gap-8 text-nowrap">
+                    <li><a href="index.html" class="text-[#0551EC] md:text-sm lg:text-lg">Home</a></li>
+                    <li><a href="about.html" class="text-[#0551EC] md:text-sm lg:text-lg">About Us</a></li>
+                    <li><a href="services.html" class="text-[#0551EC] md:text-sm lg:text-lg">Services</a></li>
+                    <li><a href="" class="text-[#0551EC] md:text-sm lg:text-lg md:flex md:gap-2 md:items-center md:justify-center">Our Sites
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a></li>
+                    <li><a href="contact.html" class="text-[#0551EC] text-lg">Contact Us</a></li>
+                </ul>
+                <button class="hidden md:block px-4 md:px-6 py-3 bg-[#0551EC] rounded-3xl text-lg text-white font-semibold text-nowrap cursor-pointer">CJTronics by Folham</button>
+            </nav>
+
+            <div class="max-w-[1300px] mx-auto p-12 flex flex-col py-[100px] md:py-[200px]">
+                <p class="font-[Lato] text-[40px] md:text-[104px]">You Should Know</p>
+                <p class="font-[Lato] text-[41px] md:text-[104px] text-stroke2 md:text-stroke -mt-3 md:-mt-10">About Folham.</p>
+            </div>
+    </section>
+
+    <section class="bg-[#BFC6FF] text-black px-4">
+        <div class="max-w-[1300px] mx-auto flex flex-col py-12">
+            <p class="font-extrabold text-4xl md:text-6xl font-[Lato] text-stroke3 text-center py-12">OUR STORY</p> <hr class="border-b-2 border-black/40">
+            <div>
+                <div class="flex flex-col md:flex-row gap-4 md:items-center justify-between md:p-10 py-8">
+                    <p class="font-bold text-xl md:text-2xl">Our Story</p>
+                    <p class="md:w-[60%] tet-[16px] md:text-xl">Since 1984, Folham has used its outdoor advertising expertise to help companies of every size reach out to their current and potential customers. To compete in the fast growing industry, we keep modernizing our operations by introducing new products offerings in the OOH space, these products range from Digital LED Billboards, to "Human Walking" billboards which are popular for creating awareness for brands during activations and other formal /informal events.</p>
+                </div> <hr class="border-b-2 border-black/40">
+                <div class="flex flex-col md:flex-row gap-4 md:items-center justify-between md:p-10 py-8">
+                    <p class="font-bold text-xl md:text-2xl">Our Mission</p>
+                    <p class="md:w-[60%] tet-[16px] md:text-xl">Our mission is to provide innovative and efficient advertising solutions that elevate your brand's visibility. To compete in the fast growing industry, we keep modernizing our operations by introducing new products offerings in the OOH space, these products range from Digital LED Billboards, to "Human Walking" billboards which are popular for creating awareness for brands during activations and other formal /informal events.</p>
+                </div> <hr class="border-b-2 border-black/40">
+                <div class="flex flex-col md:flex-row gap-4 md:items-center justify-between md:p-10 py-8">
+                    <p class="font-bold text-xl md:text-2xl">Our Vision</p>
+                    <p class="md:w-[60%] tet-[16px] md:text-xl">Our Vision is to continue leading the transformation of outdoor advertising in Nigeria by embracing innovation and technology, helping brands build stronger connections with their audiences, and driving impactful results.</p>
+                </div>
+            </div>
+            <div>
+                <div class="md:px-10 py-10 flex flex-col gap-2">
+                    <p class="font-bold text-3xl md:text-6xl">Why We Stand Out</p>
+                    <p class="font-bold text-3xl md:text-6xl">In the Outdoor Advertising <br> Industry</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-12 items-center justify-between md:p-10">
+                    <div class="flex flex-col gap-10">
+                        <div class="bg-white relative p-10 flex flex-col gap-2 rounded-2xl">
+                            <p class="text-xl md:text-2xl">Collaborative</p>
+                            <p class="text-[16px] text-lg">We pride ourselves on friendly and attentive service, that means empathy when goals shift or schedules change, collaboration on any kind of challenge even when it’s not what we signed up for, flexibility with timing and budgetary needs and hard work to make every project successful; it’s why our client relationships usually end up spanning 5 -15 years (and counting).</p>
+                            <div class="bg-[#ECBD47] w-[54px] h-[54px] rounded-full flex items-center justify-center absolute -top-7 left-10">02</div>
+                        </div>
+                        
+                        <div class="bg-white relative p-10 flex flex-col gap-2 rounded-2xl">
+                            <p class="text-xl md:text-2xl">Data - Driven</p>
+                            <p class="text-[16px] text-lg">We’re hungry for information about our clients, their audiences, products, and the industry trends. We work with data; the more we know, the more we can create marketing strategies that triggers and produces results long term.</p>
+                            <div class="bg-[#ECBD47] w-[54px] h-[54px] rounded-full flex items-center justify-center absolute -top-7 left-10">03</div>
+                        </div>
+                    </div>
+                    <div class="bg-white relative p-10 h-fit flex flex-col gap-2 rounded-2xl">
+                        <p class="text-xl md:text-2xl">Efficiency</p>
+                        <p class="text-[16px] text-lg">We’ve spent years working in some of the best advertising agencies in the world, and taken the best from that experience to develop a working process that is as pain-free as possible. When the project management is tight and the system is organized, it helps us focus on what really matters – creative work.</p>
+                        <div class="bg-[#ECBD47] w-[54px] h-[54px] rounded-full flex items-center justify-center absolute -top-7 left-10">01</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gradient">
+        <div class="max-w-[1300px] mx-auto px-10 flex flex-col md:gap-[100px] py-12 md:py-[100px]">
+            <div class="flex flex-col gap-4 py-12">
+                <p class="text-[40px] md:text-[80px] text-stroke4">Our Squad</p>
+                <p class="text-right text-[16px] md:text-xl">Our team is a tight-knit family of designers, artists, and visionaries, all bound by the same creative enthusiasm.</p>
+            </div>
+            <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+                <div class="flex flex-col gap-3">
+                    <img src="images/Image (2).png">
+                    <div>
+                        <p class="text-xl md:text-2xl">Albert Festus</p>
+                        <p class="text-[16px] md:text-lg">Creative Director</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <img src="images/Image (2).png">
+                    <div>
+                        <p class="text-xl md:text-2xl">Albert Festus</p>
+                        <p class="text-[16px] md:text-lg">Creative Director</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <img src="images/Image (2).png">
+                    <div>
+                        <p class="text-xl md:text-2xl">Albert Festus</p>
+                        <p class="text-[16px] md:text-lg">Creative Director</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative hidden md:block md:w-[380px] h-1 bg-[#cecece]">
+                <div class="absolute  w-[65px] h-1 bg-[#0551EC]"></div>
+            </div>
+         </div>
+    </section>
+
+    <div class="bg-[#BFC6FF] w-full">
+            <div class="flex flex-col items-center justify-center gap-4 py-[50px]">
+                <div class="flex gap-8 items-center justify-center">
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"><img src="images/Linkedin icon.png"></div>
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"> <img src="images/Shape (1).png"></div>
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"><img src="images/16px-logo-instagram.png"></div>
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"><img src="images/Shape.png"></div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-4 items-center justify-center">
+                    <div class="flex gap-2">
+                        <img src="images/iconoir_instagram.png">
+                        <p class="text-black">folham_ltd</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="images/phone.png">
+                        <p class="text-black">+234 804 814 3519, +234 802 345 2832</p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-4 items-center justify-center">
+                    <div class="flex gap-2">
+                        <img src="images/marker-pin-01.png">
+                        <p class="text-black">32 Alhaji Asiri-Abo Str, Isolo, Lagos, Nigeria.</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="images/mail-01.png">
+                        <p class="text-black">info@folham.com</p>
+                    </div>
+                </div>
+                <p class="text-center text-black">© Folham 2025 | All Rights Reserved</p>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="tailwind.js"></script>
+    <script src="tailwind.js"></script>
+    <script src="https://kit.fontawesome.com/5c092a2f6c.js" crossorigin="anonymous" ></script>
+    <style>
+        @font-face {
+            font-family: Lato;
+            src: url(font/Lato-Black.ttf);
+        }
+        .text-stroke{
+            -webkit-text-stroke: 2px white;
+            color: transparent;
+        }
+        .gradient{
+            background: url(images/Gradients.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <section>
+            <nav class="bg-white max-w-[1300px] mx-auto flex md:justify-between items-center px-8 py-2 md:px-[40px] md:gap-12 lg:gap-[72px] my-4 md:h-[100px] rounded-[50px] font-medium">
+                <div class="flex items-center justify-between w-full">
+                    <img src="images/logo.png">
+                    <img src="images/menu.png" class="block md:hidden">
+                </div>
+                <ul class="hidden md:flex md:gap-8 text-nowrap">
+                    <li><a href="index.html" class="text-[#0551EC] md:text-sm lg:text-lg">Home</a></li>
+                    <li><a href="about.html" class="text-[#0551EC] md:text-sm lg:text-lg">About Us</a></li>
+                    <li><a href="services.html" class="text-[#0551EC] md:text-sm lg:text-lg">Services</a></li>
+                    <li><a href="" class="text-[#0551EC] md:text-sm lg:text-lg md:flex md:gap-2 md:items-center md:justify-center">Our Sites
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a></li>
+                    <li><a href="contact.html" class="text-[#0551EC] text-lg">Contact Us</a></li>
+                </ul>
+                <button class="hidden md:block px-4 md:px-6 py-3 bg-[#0551EC] rounded-3xl text-lg text-white font-semibold text-nowrap cursor-pointer">CJTronics by Folham</button>
+            </nav>
+
+            <div class="max-w-[1300px] mx-auto p-12 py-[80px] md:py-[100px]">
+                <p class="font-[Lato] text-[35px] md:text-[90px] text-stroke text-nowrap">Hey! We are ready <br>to hear from you</p>
+                <img src="" alt="">
+            </div>
+    </section>
+
+    <section>
+        <div class="max-w-[1300px] mx-auto px-10 py-[100px] flex flex-col gap-12">
+            <div class="flex flex-col gap-8">
+                <p class="text-lg">Click on what you are interested in!</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 w-[90%] gap-6">
+                    <a href="" class="py-3 px-5 text-center text-[14px] md:text-lg border border-white rounded-[30px] text-nowrap">Branding</a>
+                    <a href="" class="py-3 px-5 text-center text-[14px] md:text-lg border border-white rounded-[30px] text-nowrap">Lamppost Advertisement</a>
+                    <a href="" class="py-3 px-5 text-center text-[14px] md:text-lg border border-white rounded-[30px] text-nowrap">Billboard Advertisement</a>
+                    <a href="" class="py-3 px-5 text-center text-[14px] md:text-lg border border-white rounded-[30px] text-nowrap">Media Buying</a>
+                    <a href="" class="py-3 px-5 text-center text-[14px] md:text-lg border border-white rounded-[30px] text-nowrap">Transit Advertisement</a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-12">
+                <div class="flex flex-col gap-4">
+                    <input type="text" placeholder="Write your name here" class="w-full md:w-[70%] pb-6 border-b border-white placeholder:text-white placeholder:text-lg outline-none">
+                    <input type="tel"  placeholder="Phone number" class="w-full md:w-[70%] pb-6 border-b border-white placeholder:text-white placeholder:text-lg outline-none">
+                    <input type="email"  placeholder="Email address" class="w-full md:w-[70%] pb-6 border-b border-white placeholder:text-white placeholder:text-lg outline-none">
+                    <input type="text" placeholder="Write us your message" class="w-full md:w-[70%] pb-6 border-b border-white placeholder:text-white placeholder:text-lg outline-none">
+                </div>
+                <button type="submit" class="border border-white rounded-[40px] py-6 w-full md:w-[400px] text-lg cursor-pointer transition ease-in-out hover:bg-[#BFC6FF] hover:text-black">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </section>
+    <div class="bg-[#BFC6FF] w-full">
+            <div class="flex flex-col items-center justify-center gap-4 py-[50px]">
+                <div class="flex gap-8 items-center justify-center">
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"><img src="images/Linkedin icon.png"></div>
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"> <img src="images/Shape (1).png"></div>
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"><img src="images/16px-logo-instagram.png"></div>
+                     <div class="rounded-full border w-[45px] h-[45px] border-[#0A142F]/10 flex items-center justify-center"><img src="images/Shape.png"></div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-4 items-center justify-center">
+                    <div class="flex gap-2">
+                        <img src="images/iconoir_instagram.png">
+                        <p class="text-black">folham_ltd</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="images/phone.png">
+                        <p class="text-black">+234 804 814 3519, +234 802 345 2832</p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-4 items-center justify-center">
+                    <div class="flex gap-2">
+                        <img src="images/marker-pin-01.png">
+                        <p class="text-black">32 Alhaji Asiri-Abo Str, Isolo, Lagos, Nigeria.</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="images/mail-01.png">
+                        <p class="text-black">info@folham.com</p>
+                    </div>
+                </div>
+                <p class="text-center text-black">© Folham 2025 | All Rights Reserved</p>
+            </div>
+    </div>
+</body>
+</html>
